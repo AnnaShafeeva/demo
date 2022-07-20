@@ -6,7 +6,11 @@ public class Main {
         int c = a + b;
         System.out.println("Сумма: " + c);
 
-        System.out.println(Commands.sum(5, 9));
+        int d = Commands.sum(5, 9);
+        System.out.println("Сумма: " + (c + d));
+
+        int i = 5;
+        System.out.println(i + Commands.sum(89, 8));
 
 
     }
