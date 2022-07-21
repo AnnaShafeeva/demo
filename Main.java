@@ -12,8 +12,7 @@ public class Main {
         int i = 5;
         System.out.println(i + Commands.sum(89, 8));
 
-        int g = 10;
-        System.out.println(g);
+
 
 
     }
